@@ -13,10 +13,14 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var feelsLabel: UILabel!
     
+    @IBOutlet weak var viewLocation: UIView!
     @IBOutlet weak var windLabel: UILabel!
     
     @IBOutlet weak var cityLabel: UILabel!
     
+    @IBOutlet weak var viewCurrent: UIView!
+    @IBOutlet weak var viewFeels: UIView!
+    @IBOutlet weak var viewWind: UIView!
     var targetCoordinats1 = ""
     var targetCoordinats2 = ""
     
@@ -26,6 +30,13 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         dataGet()
+        viewLocation.layer.cornerRadius = 8
+        viewLocation.layer.borderColor = UIColor.white.cgColor
+        viewLocation.layer.borderWidth = 2
+        
+        viewCurrent.layer.cornerRadius = 25
+        viewFeels.layer.cornerRadius = 25
+        viewWind.layer.cornerRadius = 25
        
     }
     func dataGet() {

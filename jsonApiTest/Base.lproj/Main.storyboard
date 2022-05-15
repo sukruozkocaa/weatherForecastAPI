@@ -77,129 +77,138 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer.sun" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ECn-8G-88F">
-                                <rect key="frame" x="112" y="487" width="58" height="53"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49.5" id="az9-wj-t4g"/>
-                                    <constraint firstAttribute="width" constant="56.5" id="w34-yq-N0I"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer.sun.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9Xh-FJ-v3r">
-                                <rect key="frame" x="112" y="544" width="58" height="47.5"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="er3-Is-g1p"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wind" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VQe-Af-NIC">
-                                <rect key="frame" x="112" y="605" width="58" height="47"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="b5N-Gv-dmB"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7J-V9-vbN">
-                                <rect key="frame" x="190" y="497" width="86" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="msr-ey-aoM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="celcius" translatesAutoresizingMaskIntoConstraints="NO" id="d9m-KN-Tck">
-                                <rect key="frame" x="275" y="493" width="36" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="36" id="k1C-aG-bSb"/>
-                                    <constraint firstAttribute="height" constant="49" id="tMU-NX-y0B"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feels" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfX-QK-nyE">
-                                <rect key="frame" x="190" y="558" width="86" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="D6s-f2-8lw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aA-BQ-GrE">
-                                <rect key="frame" x="190" y="608" width="86" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="uCA-Oc-OOq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="celcius" translatesAutoresizingMaskIntoConstraints="NO" id="jrx-3y-y8Q">
-                                <rect key="frame" x="276" y="548" width="36" height="49"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="speedometer" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7XF-Od-vAc">
-                                <rect key="frame" x="277" y="598" width="42" height="55"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C4y-KW-KBS">
-                                <rect key="frame" x="95" y="305" width="57" height="49"/>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="57" id="E7F-te-Oxn"/>
-                                    <constraint firstAttribute="height" constant="50.5" id="bB4-66-YMx"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGy-I1-SUW">
-                                <rect key="frame" x="162" y="304" width="232" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="ole-Xf-XWw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLD-KP-40V">
+                                <rect key="frame" x="8" y="293" width="399" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gi2-zs-RUZ">
+                                        <rect key="frame" x="93" y="5" width="116" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGy-I1-SUW">
+                                        <rect key="frame" x="210" y="4" width="170" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C4y-KW-KBS">
+                                        <rect key="frame" x="31" y="12" width="37" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemPinkColor"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.86354888910881633" green="0.94328004121780396" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gTF-2a-I0p">
+                                <rect key="frame" x="37" y="466" width="341" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thermometer.sun" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ECn-8G-88F">
+                                        <rect key="frame" x="3" y="10" width="58" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.26790248660208793" green="1" blue="0.23297368993632683" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7J-V9-vbN">
+                                        <rect key="frame" x="206" y="0.0" width="69" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="33"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Temp." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13B-Ya-z0F">
+                                        <rect key="frame" x="62" y="8" width="152" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="celcius" translatesAutoresizingMaskIntoConstraints="NO" id="d9m-KN-Tck">
+                                        <rect key="frame" x="277" y="0.0" width="36" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.77108437891418213" blue="0.91764706370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="atZ-z8-7k1">
+                                <rect key="frame" x="37" y="578" width="341" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thermometer.sun.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9Xh-FJ-v3r">
+                                        <rect key="frame" x="3" y="12" width="58" height="47.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="1" green="0.0489278907736862" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feels Temp." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdD-Cu-g20">
+                                        <rect key="frame" x="58" y="10" width="152" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfX-QK-nyE">
+                                        <rect key="frame" x="203" y="0.0" width="75" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="33"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="celcius" translatesAutoresizingMaskIntoConstraints="NO" id="jrx-3y-y8Q">
+                                        <rect key="frame" x="278" y="0.0" width="36" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.35294118520000001" green="0.77254903320000001" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cKH-dk-e4g">
+                                <rect key="frame" x="37" y="688" width="341" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wind" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VQe-Af-NIC">
+                                        <rect key="frame" x="8" y="13" width="58" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.0026333159601676925" green="0.26928971603445018" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aA-BQ-GrE">
+                                        <rect key="frame" x="203" y="0.0" width="78" height="72"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aM-hy-WZI">
+                                        <rect key="frame" x="56" y="10" width="152" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KM/H" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAh-aZ-eZV">
+                                        <rect key="frame" x="271" y="16" width="67" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.35294118520000001" green="0.77254903320000001" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2Zs-Mp-9P3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="TfX-QK-nyE" firstAttribute="top" secondItem="l7J-V9-vbN" secondAttribute="bottom" constant="20" id="03f-dR-Vlo"/>
-                            <constraint firstItem="l7J-V9-vbN" firstAttribute="leading" secondItem="TfX-QK-nyE" secondAttribute="leading" id="0vj-Jf-8s8"/>
-                            <constraint firstItem="C4y-KW-KBS" firstAttribute="leading" secondItem="2Zs-Mp-9P3" secondAttribute="leading" constant="95" id="1at-5T-G4V"/>
-                            <constraint firstItem="TfX-QK-nyE" firstAttribute="trailing" secondItem="0aA-BQ-GrE" secondAttribute="trailing" id="229-8v-qxL"/>
-                            <constraint firstItem="l7J-V9-vbN" firstAttribute="leading" secondItem="ECn-8G-88F" secondAttribute="trailing" constant="21.5" id="2rD-Dh-iaD"/>
-                            <constraint firstItem="l7J-V9-vbN" firstAttribute="centerY" secondItem="d9m-KN-Tck" secondAttribute="centerY" id="49A-HW-nRB"/>
-                            <constraint firstItem="7XF-Od-vAc" firstAttribute="top" secondItem="jrx-3y-y8Q" secondAttribute="bottom" constant="0.5" id="6H0-Yk-6hg"/>
-                            <constraint firstItem="l7J-V9-vbN" firstAttribute="trailing" secondItem="TfX-QK-nyE" secondAttribute="trailing" id="8Q7-H2-s4W"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="bottom" secondItem="0aA-BQ-GrE" secondAttribute="bottom" constant="222" id="BbJ-ku-6cC"/>
-                            <constraint firstItem="BGy-I1-SUW" firstAttribute="leading" secondItem="C4y-KW-KBS" secondAttribute="trailing" constant="10" id="EVd-xp-FfX"/>
-                            <constraint firstItem="ECn-8G-88F" firstAttribute="trailing" secondItem="9Xh-FJ-v3r" secondAttribute="trailing" id="FCf-2G-U2B"/>
-                            <constraint firstItem="VQe-Af-NIC" firstAttribute="top" secondItem="9Xh-FJ-v3r" secondAttribute="bottom" constant="13" id="GJl-BO-sgr"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="trailing" secondItem="l7J-V9-vbN" secondAttribute="trailing" constant="138" id="GRu-xv-vWG"/>
-                            <constraint firstItem="9Xh-FJ-v3r" firstAttribute="top" secondItem="ECn-8G-88F" secondAttribute="bottom" constant="7.5" id="HC0-1a-FXD"/>
-                            <constraint firstItem="0aA-BQ-GrE" firstAttribute="leading" secondItem="VQe-Af-NIC" secondAttribute="trailing" constant="20" id="IVa-jp-gdm"/>
-                            <constraint firstItem="9Xh-FJ-v3r" firstAttribute="centerX" secondItem="VQe-Af-NIC" secondAttribute="centerX" id="OZw-JP-47M"/>
-                            <constraint firstItem="0aA-BQ-GrE" firstAttribute="top" secondItem="TfX-QK-nyE" secondAttribute="bottom" constant="22" id="QGQ-lj-ERE"/>
-                            <constraint firstItem="7XF-Od-vAc" firstAttribute="leading" secondItem="0aA-BQ-GrE" secondAttribute="trailing" constant="1" id="TeL-TQ-aVy"/>
-                            <constraint firstItem="C4y-KW-KBS" firstAttribute="top" secondItem="BGy-I1-SUW" secondAttribute="top" id="Tuu-TK-L5j"/>
-                            <constraint firstItem="ECn-8G-88F" firstAttribute="leading" secondItem="2Zs-Mp-9P3" secondAttribute="leading" constant="112" id="Vuy-Z8-6c1"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="bottom" secondItem="VQe-Af-NIC" secondAttribute="bottom" constant="209" id="XEZ-mF-Lg0"/>
-                            <constraint firstItem="BGy-I1-SUW" firstAttribute="trailing" secondItem="40D-IX-zpp" secondAttribute="trailingMargin" id="ac9-QS-TjN"/>
-                            <constraint firstItem="ECn-8G-88F" firstAttribute="leading" secondItem="9Xh-FJ-v3r" secondAttribute="leading" id="hoa-Ic-4cE"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="trailing" secondItem="7XF-Od-vAc" secondAttribute="trailing" constant="95" id="l7r-YV-HpO"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="bottom" secondItem="7XF-Od-vAc" secondAttribute="bottom" constant="208.5" id="lSX-qV-ej6"/>
-                            <constraint firstItem="C4y-KW-KBS" firstAttribute="top" secondItem="2Zs-Mp-9P3" secondAttribute="top" constant="216" id="lY8-Te-RME"/>
-                            <constraint firstItem="jrx-3y-y8Q" firstAttribute="leading" secondItem="TfX-QK-nyE" secondAttribute="trailing" id="pqi-5I-F3b"/>
-                            <constraint firstItem="TfX-QK-nyE" firstAttribute="centerY" secondItem="jrx-3y-y8Q" secondAttribute="centerY" id="qDn-k4-A3Q"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="trailing" secondItem="d9m-KN-Tck" secondAttribute="trailing" constant="103" id="tS9-Q0-S2k"/>
-                            <constraint firstItem="2Zs-Mp-9P3" firstAttribute="trailing" secondItem="jrx-3y-y8Q" secondAttribute="trailing" constant="102" id="vbn-0h-rgT"/>
-                            <constraint firstItem="jrx-3y-y8Q" firstAttribute="top" secondItem="d9m-KN-Tck" secondAttribute="bottom" constant="6" id="wwe-NM-hUd"/>
-                            <constraint firstItem="9Xh-FJ-v3r" firstAttribute="leading" secondItem="VQe-Af-NIC" secondAttribute="leading" id="ylQ-9A-9Mk"/>
-                        </constraints>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="kc5-HO-9tX"/>
                     <connections>
                         <outlet property="cityLabel" destination="BGy-I1-SUW" id="AQh-27-bMr"/>
                         <outlet property="currentLabel" destination="l7J-V9-vbN" id="5ai-zd-Z8t"/>
                         <outlet property="feelsLabel" destination="TfX-QK-nyE" id="bgb-9h-tda"/>
+                        <outlet property="viewCurrent" destination="gTF-2a-I0p" id="KHn-sj-jgA"/>
+                        <outlet property="viewFeels" destination="atZ-z8-7k1" id="6LR-qg-OXq"/>
+                        <outlet property="viewLocation" destination="BLD-KP-40V" id="Jtw-nn-dXv"/>
+                        <outlet property="viewWind" destination="cKH-dk-e4g" id="xBM-ab-4uw"/>
                         <outlet property="windLabel" destination="0aA-BQ-GrE" id="Zv7-1c-KWh"/>
                     </connections>
                 </viewController>
@@ -229,7 +238,6 @@
     <resources>
         <image name="celcius" width="512" height="512"/>
         <image name="location.fill" catalog="system" width="128" height="121"/>
-        <image name="speedometer" catalog="system" width="128" height="121"/>
         <image name="thermometer.sun" catalog="system" width="103" height="128"/>
         <image name="thermometer.sun.fill" catalog="system" width="103" height="128"/>
         <image name="weather-news" width="512" height="512"/>
@@ -237,8 +245,8 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
