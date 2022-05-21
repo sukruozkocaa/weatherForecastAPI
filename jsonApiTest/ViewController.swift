@@ -40,7 +40,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         title = "Weather API"
         
         pickerViewText.layer.borderColor = UIColor.orange.cgColor
-        pickerViewText.layer.borderWidth
+        pickerViewText.layer.borderWidth = 1
         pickerViewText.layer.cornerRadius = 10
       
         picker.delegate = self

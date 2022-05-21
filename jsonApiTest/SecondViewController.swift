@@ -37,7 +37,8 @@ class SecondViewController: UIViewController {
         viewCurrent.layer.cornerRadius = 25
         viewFeels.layer.cornerRadius = 25
         viewWind.layer.cornerRadius = 25
-       
+        
+        
     }
     func dataGet() {
         let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(targetCoordinats1)&lon=\(targetCoordinats2)&appid=\(api)")
